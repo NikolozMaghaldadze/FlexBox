@@ -75,7 +75,7 @@ ul li{
     font-weight: bold;
 }
 .gamaertianebeli-1{
-    padding:67px 132px 67px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,6 +159,7 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .main-wrapper{
