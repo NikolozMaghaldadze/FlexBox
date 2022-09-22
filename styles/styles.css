@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    margin-top:100px;
+}
+
 .header-wrapper{
     width:100%;
     height: 44px;
@@ -10,7 +14,19 @@
     align-items: center;
     flex-direction: row;
     padding:67px 132px 67px;
+    position: relative;
+    top:0px;
+    position: fixed;
+    background-color: #FFFFFF;
+}
 
+.first-section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .logo-wrapper{
@@ -69,6 +85,7 @@ ul li{
 a:hover{
     color: rgb(56, 206, 206);
     transition: 0.4s;
+    text-decoration: underline;
 }
 
 .button{
@@ -130,4 +147,47 @@ h1{
     display: flex;
     width:801px ;
     height:526.63px;
+    margin-left: 100px;
+}
+
+
+.second-section{
+    width: 1169px;
+    height: 1224px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper{
+    width: 714px;
+    height: 195px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-wrapper-text{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    color: #3D37F1;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.section-wrapper-title{
+    color: #5A5454;
+    font-size: 40px;
+    font-family: lato, sans-serif;
+    padding-bottom: 10px;
+}
+
+.section-wrapper-info{
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    color: #747474;
+    width: 712px;
+    height: 85px;
 }
