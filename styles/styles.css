@@ -158,6 +158,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .main-wrapper{
@@ -191,3 +192,135 @@ h1{
     width: 712px;
     height: 85px;
 }
+
+
+.content-wrapper{
+    width: 1169px;
+    height: 962px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.combiner-block{
+    width: 296px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-block-element{
+    width: 370px;
+    height:451px;
+    background-color: #FBBA77;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first-block-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 55px;
+}
+
+.title-text{
+    font-family:Lato,sans-serif;
+    font-size:22px;
+    font-weight:400;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.paragraph-text{
+    width:328px;
+    height:62px;
+    font-family: Roboto,sans-serif;
+    font-size:16px;
+    color:#FFFFFF;
+    line-height: 25px;
+}
+
+.button-corner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    width: 131px;
+    height:45px;
+    border-radius: 23px;
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+
+.button-corner:hover{
+    width: 150px;
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.second-block-element{
+    width: 370px;
+    height:451px;
+    background-color: #41EAE3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.third-block-element{
+    width: 370px;
+    height:451px;
+    background-color: #69529F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fourth-block-element{
+    width: 370px;
+    height:451px;
+    background-color: #4386D2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fifth-block-element{
+    width: 370px;
+    height:451px;
+    background-color: #A5A2F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sixth-block-element{
+    width: 370px;
+    height:451px;
+    background-color: #FF8088;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
