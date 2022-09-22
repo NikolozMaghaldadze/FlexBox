@@ -85,7 +85,7 @@ ul li{
 a:hover{
     color: rgb(56, 206, 206);
     transition: 0.4s;
-    text-decoration: underline;
+    font-size:23px;
 }
 
 .button{
