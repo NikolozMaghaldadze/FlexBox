@@ -28,5 +28,6 @@
     .second-section{
         flex-direction: row;
         padding-left:200px;
+        padding-right: 100px;
     }
 }
