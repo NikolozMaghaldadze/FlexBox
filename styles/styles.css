@@ -75,6 +75,8 @@ ul li{
     font-weight: bold;
 }
 .gamaertianebeli-1{
+    width: auto;
+    height: 527px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -152,15 +154,17 @@ h1{
 
 
 .second-section{
-    width: 1169px;
-    height: 1224px;
+    width: auto;
+    height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 0 auto;
 }
+
 
 .main-wrapper{
     width: 714px;
@@ -324,4 +328,9 @@ h1{
     flex-direction: column;
     text-align: center;
 }
+
+.burger-bar{
+    display: none;
+}
+
 

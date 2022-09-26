@@ -1,0 +1,32 @@
+@media (max-width:1360px){
+    nav ul li{
+        display: none;
+    }
+
+    .burger-bar{
+        font-size: 30px;
+        display: flex;
+        text-align: end;
+        align-items: flex-end;
+        justify-content: space-between;
+        
+    }
+
+    .main-wrapper{
+        margin-top: 250px;
+        
+    }
+
+    .gamaertianebeli-1{
+        flex-direction: column;
+    }
+
+    .main-wrapper{
+        font-size: 30px;
+    }
+
+    .second-section{
+        flex-direction: row;
+        padding-left:200px;
+    }
+}
